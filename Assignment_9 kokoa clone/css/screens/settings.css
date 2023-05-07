@@ -1,0 +1,76 @@
+.settings__setting {
+    padding: 22px 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+    font-weight: 600;
+    font-size: 22px;
+    align-items: center;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.settings__setting:nth-child(3) {
+    padding-bottom: 45px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.settings__setting:nth-child(4) {
+    padding-top: 45px;
+}
+
+.settings__setting img {
+    margin-right: 15px;
+    margin-bottom: -5px;
+}
+
+.settings__setting:last-child img {
+    margin-left: 2px;
+}
+
+.settings__setting:nth-child(2) img {
+    margin-left: 3px;
+}
+
+.settings__setting:nth-child(3) span {
+    position: absolute;
+    margin-left: 7px;
+    margin-top: 2px;
+}
+
+.settings__setting-column:last-child {
+    opacity: 0.6;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.settings__setting:nth-child(8) {
+    position: relative;
+}
+
+.settings__setting:nth-child(8) .new-badge {
+    margin-left: 135px;
+    margin-top: 10px;
+}
+
+.settings__setting:nth-child(9) .new-badge {
+    margin-left: 140px;
+    margin-top: 10px;
+}
+
+.new-badge {
+    background-color: tomato;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.settings__setting:last-child {
+    padding-bottom: 200px;
+}
