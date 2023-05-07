@@ -1,0 +1,16 @@
+.badge {
+  background: radial-gradient(
+    circle at 50% 50%,
+    #fdf497 0%,
+    /* #fdf497 5%, */ /* #fd5949 45%, */ #d6249f 60%,
+    #295aeb 90%
+  );
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  color: white;
+  font-weight: 600;
+}
